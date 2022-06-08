@@ -33,3 +33,7 @@ html {
   caption {
     padding: 10px;
   }
+
+  table>thead>tr>:nth-child(2), tbody tr th:last-of-type{
+    border: 3px solid black;
+  }
